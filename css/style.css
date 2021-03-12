@@ -1,0 +1,182 @@
+section.ins-gallery {
+  margin-top: 50px;
+}
+
+section.ins-gallery .instagram-title {
+  width: 100vw;
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-transform: uppercase;
+  padding-bottom: 35px;
+}
+
+section.ins-gallery .instagram-title h2 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+section.ins-gallery .instagram-title h2 a {
+  color: #2879fe;
+  text-decoration: underline;
+}
+
+section.ins-gallery .instagram-title h2 a:hover {
+  text-decoration: none;
+}
+
+section.ins-gallery .instagram-title p {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+section.ins-gallery .instagram-gallery {
+  width: 100vw;
+  height: 224px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.ins-gallery .instagram-gallery a {
+  -ms-flex-preferred-size: 16.5%;
+      flex-basis: 16.5%;
+  position: relative;
+}
+
+section.ins-gallery .instagram-gallery a i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  color: white;
+  font-weight: 300;
+  font-size: 13px;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+section.ins-gallery .instagram-gallery a img {
+  width: 100%;
+  height: 224px;
+}
+
+section.ins-gallery .instagram-gallery a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 224px;
+  background: rgba(0, 0, 0, 0.6);
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+section.ins-gallery .instagram-gallery a:hover i {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+section.ins-gallery .instagram-gallery a:hover::before {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+section.services-list {
+  width: 100vw;
+  height: 80px;
+}
+
+section.services-list .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+section.services-list .container .services-listing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+section.services-list .container .services-listing .services {
+  -ms-flex-preferred-size: 33%;
+      flex-basis: 33%;
+}
+
+section.services-list .container .services-listing .services a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+
+section.services-list .container .services-listing .services a:hover h4 {
+  color: #2879fe;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+section.services-list .container .services-listing .services a .iconn {
+  padding-right: 30px;
+}
+
+section.services-list .container .services-listing .services a .iconn i {
+  font-size: 35px;
+  color: #2879fe;
+  font-weight: 100;
+}
+
+section.services-list .container .services-listing .services a .textt h4 {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+section.services-list .container .services-listing .services a .textt p {
+  color: #777777;
+  font-size: 14px;
+}
+
+section.services-list .container .services-listing .services a .textt p::first-letter {
+  text-transform: uppercase;
+}
+
+section.services-list .container .services-listing .services a .textt p span {
+  color: #777777;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */
